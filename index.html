@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frieren</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="head-left">
+          <img src="img/logo.jpg" alt="logo" />
+          <button>Watch Now</button>
+        </div>
+        <div class="head-right">
+          <a href="#">ADVENTURE</a>
+          <a href="#">INTROSPECTION</a>
+          <!-- <a href="#">MELANCHOLY</a> -->
+          <a href="#">BITTERSWEET</a>
+          <a href="#">JOURNERY</a>
+          <button id="play"></button>
+          <!-- <audio src="audio/frierenOP.mp3" id="play"></audio> -->
+        </div>
+      </header>
+      <section class="hero-section autoBlur">
+        <div class="hero-vid">
+          <video autoplay muted plays-inline class="hero-video">
+            <source src="video/hero-1.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-info">
+            <h1>FRIEREN:</h1>
+            <p style="font-weight: bold">BEYOND THE JOURNEY'S END</p>
+            <p>TOP ANIME SERIES</p>
+            <button onclick="openYouTubeVideo()">Watch Trailer</button>
+            <div id="videoBox" style="display: none" class="video-container">
+              <iframe
+                id="youtubeFrame"
+                width="560"
+                height="315"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <h1 class="gaming-text">FANTASY DRAMA</h1>
+          <div class="next-btn">NEXT</div>
+        </div>
+      </section>
+      <section class="about-section">
+        <p>Welcome to Frieren</p>
+        <div class="autoBlur">
+          <h1>
+            THE SUBTLE ADVENTURES OF <br />
+            A LONG-LIVED MAGE
+          </h1>
+        </div>
+
+        <div class="image-box autoTakeFull">
+          <img src="img/about2.jpg" alt="about-img" />
+        </div>
+        <h4>SOUSOU NO FRIEREN</h4>
+        <h5>
+          The journey of journeys, transforming your every step across a world
+          of magic and memories into a timeless tale of adventure, loss, and
+          enduring bonds.
+        </h5>
+      </section>
+      <section class="info-section">
+        <h3>Explore the World of Frieren</h3>
+        <p>
+          Immerse yourself in a richly woven universe where magic, memories, and
+          the passage of time intertwine, creating a timeless tale of adventure,
+          reflection, and the bonds that define existence.
+        </p>
+        <div class="info-cards">
+          <div class="card autoDisplay1">
+            <h1>FRIEREN</h1>
+            <p>
+              An immortal elf mage who embarks on a journey to understand
+              humanity, Frieren’s quiet wisdom and poignant reflections on time
+              and loss make her a deeply compelling protagonist.
+            </p>
+            <video
+              src="video/feature-1.mp4"
+              loop
+              autoplay
+              muted
+              plays-inline
+            ></video>
+            <button>WATCH NOW</button>
+          </div>
+          <div class="card autoDisplay">
+            <h1>STARK</h1>
+            <p>
+              A young warrior with immense strength and a heart full of doubts,
+              Stark grows from a timid fighter into a confident protector,
+              bringing humor and heart to Frieren’s journey
+            </p>
+            <video
+              src="video/feature-2.mp4"
+              loop
+              autoplay
+              muted
+              plays-inline
+            ></video>
+            <button>WATCH NOW</button>
+          </div>
+          <div class="card autoDisplay">
+            <video
+              src="video/feature-3.mp4"
+              loop
+              autoplay
+              muted
+              plays-inline
+            ></video>
+          </div>
+          <div class="card autoDisplay">
+            <h1>FERN</h1>
+            <p>
+              A disciplined and talented mage trained by Frieren, Fern is both
+              stoic and deeply caring.
+            </p>
+            <video
+              src="video/feature-4.mp4"
+              loop
+              autoplay
+              muted
+              plays-inline
+            ></video>
+            <button>WATCH NOW</button>
+            >
+          </div>
+          <div class="card autoDisplay">
+            <video
+              src="video/feature-5.mp4"
+              loop
+              autoplay
+              muted
+              plays-inline
+            ></video>
+          </div>
+          <div class="card autoDisplay">
+            <!-- <video
+              src="video/feature-6.mp4"
+              loop
+              autoplay
+              muted
+              plays-inline
+            ></video> -->
+            <h1>MORE COMING SOON</h1>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <p>Walk with Frieren</p>
+        <div class="autoBlur">
+          <h1>DISCOVER THE ANIME <br />THAT REDEFINES FANTASY AND EMOTION</h1>
+        </div>
+        <button>WATCH NOW !</button>
+        <img class="img1" src="img/swordman.jpg" alt="contact-img" />
+        <img class="img2" src="img/frieren.jpg" alt="contact-img" />
+        <img class="img3" src="img/fern.jpg" alt="contact-img" />
+      </section>
+      <section class="footer">
+        <p style="text-shadow: rgb(255, 0, 208) 0px 0px 6px">
+          Watch FRIEREN, or Fern will give you that look.
+        </p>
+        <!-- <ul>
+        <li>
+            <a href=""><i class="bx bxl-youtube"></i></a>
+          </li>
+       <li>
+            <a href=""><i class="bx bxl-telegram"></i></a>
+          </li>
+        <li>
+            <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          </li>
+        </ul> -->
+        <div>
+          <a href="">
+            <i class="bx bxl-discord bx-tada" style="color: #149ff7"></i>
+
+            <span>Join Frieren Community</span>
+          </a>
+        </div>
+        <!-- <p>developed by Sec-C</p> -->
+      </section>
+    </div>
+    <section name="cursor">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
